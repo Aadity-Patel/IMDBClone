@@ -6,16 +6,19 @@ import MovieInfo from "../components/MovieInfo";
 const HomePage = () => {
   return (
     <div>
-    <CustomButton buttonText="Add New Movie" onClickTask={() => console.log('Hello')}/>
+      <CustomButton
+        buttonText="Add New Movie"
+        onClickTask={() => console.log("Hello")}
+      />
       <Grid container spacing={2}>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <MovieInfo />
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <MovieInfo />
         </Grid>
 
-        <Grid item xs={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <MovieInfo />
         </Grid>
       </Grid>
