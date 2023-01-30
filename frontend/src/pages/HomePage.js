@@ -1,6 +1,7 @@
 import { Grid } from "@mui/material";
 import React from "react";
 import CustomButton from "../components/CustomButton";
+import EditWindow from "../components/EditWindow";
 import MovieInfo from "../components/MovieInfo";
 
 const HomePage = () => {
@@ -22,6 +23,7 @@ const HomePage = () => {
           <MovieInfo />
         </Grid>
       </Grid>
+      <EditWindow/>
     </div>
   );
 };

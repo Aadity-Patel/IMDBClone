@@ -9,8 +9,8 @@ import { makeStyles } from "@mui/styles";
 const useStyles = makeStyles(() => ({
   rightAlignItem: {
     display: "flex",
-  justifyContent: "flex-end",
-  alignItems: "flex-end"
+    justifyContent: "flex-end",
+    alignItems: "flex-end",
   },
 }));
 
